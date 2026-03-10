@@ -1,0 +1,59 @@
+data taken from here -> https://gamalytic.com/publisher-list 
+list of every AAA and AA game featured in my dataset. The rest are categorised as indie. 
+(some of the AAA games are not listed, as I had already categorised them beforehand)
+
+AAA
+Nintendo
+Microsoft Game Studios
+Sony Computer Entertainment
+Sony Computer Entertainment Europe
+Electronic Arts
+Ubisoft
+Activision
+Sega
+Take-Two Interactive
+Capcom
+Bethesda Softworks
+Namco Bandai Games
+From Software
+Paradox Interactive
+Aspyr
+Konami Digital Entertainment
+Warner Bros. Interactive Entertainment
+Focus Home Interactive
+Bohemia Interactive
+Deep Silver
+Team17
+Activision Blizzard
+
+AA
+Square Enix
+THQ
+Devolver Digital
+Tecmo Koei
+Wargaming.net
+Hello Games
+Crystal Dynamics
+Tripwire Interactive
+Rebellion Developments
+Cygames
+Funcom
+Nexon
+SCS Software
+Daedalic
+Disney Interactive Studios
+Xseed Games
+LucasArts
+Marvelous Interactive
+Eidos Interactive
+Astragon
+Slitherine Software
+Spike
+Kalypso Media
+Arc System Works
+Gameloft
+NCSoft
+Milestone S.r.l.
+Aerosoft
+D3Publisher
+inXile Entertainment

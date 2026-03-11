@@ -788,7 +788,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 788,Scooby-Doo! Night of 100 Frights,PS2,2002,Platform,THQ,1.17,0.72,0,0.22,2.1
 789,Project Gotham Racing (JP weekly sales),XB,2002,Action,Microsoft Game Studios,1.54,0.44,0.04,0.07,2.1
 790,Need for Speed: Most Wanted 5-1-0,PSP,2005,Racing,Electronic Arts,1.77,0.13,0.02,0.18,2.1
-791,Portal 2,X360,2011,Shooter,Valve Software,1.41,0.51,0.01,0.17,2.1
+791,Portal 2,X360,2011,Puzzle,Valve Software,1.41,0.51,0.01,0.17,2.1
 792,Devil May Cry 3: Dante's Awakening,PS2,2005,Action,Capcom,0.99,0.63,0.29,0.19,2.09
 793,Derby Stallion,PS,1997,Sports,ASCII Entertainment,0,0,1.96,0.14,2.09
 794,Dead Rising,X360,2006,Action,Capcom,1.16,0.65,0.08,0.2,2.09
@@ -1015,7 +1015,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 1015,2 Games in 1: Disney Princess & The Lion King,GBA,2004,Misc,THQ,1.25,0.46,0,0.03,1.75
 1016,Star Wars Episode I: The Phantom Menace,PS,1999,Adventure,LucasArts,0.72,0.89,0.04,0.1,1.74
 1017,Xenosaga Episode I: Der Wille zur Macht,PS2,2002,Role-Playing,Namco Bandai Games,0.63,0.49,0.45,0.17,1.74
-1018,Portal 2,PS3,2011,Shooter,Valve,0.83,0.63,0.02,0.25,1.74
+1018,Portal 2,PS3,2011,Puzzle,Valve,0.83,0.63,0.02,0.25,1.74
 1019,The Beatles: Rock Band,Wii,2009,Misc,MTV Games,1.19,0.4,0,0.16,1.74
 1020,Forza Motorsport 6,XOne,2015,Racing,Microsoft Game Studios,0.69,0.89,0.03,0.14,1.74
 1021,Sonic Colors,Wii,2010,Platform,Sega,0.96,0.61,0.01,0.16,1.74
@@ -2698,7 +2698,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 2698,ISS Pro Evolution,PS,1998,Sports,Konami Digital Entertainment,0,0,0.71,0.05,0.76
 2699,Lost Planet 2,X360,2010,Shooter,Capcom,0.38,0.24,0.08,0.06,0.76
 2700,SoulCalibur V,PS3,2012,Fighting,Namco Bandai Games,0.35,0.24,0.07,0.1,0.76
-2701,Portal 2,PC,2011,Shooter,Valve Software,0.33,0.32,0,0.11,0.76
+2701,Portal 2,PC,2011,Puzzle,Valve Software,0.33,0.32,0,0.11,0.76
 2702,Super Monkey Ball: Touch & Roll,DS,2005,Misc,Sega,0.7,0.01,0,0.06,0.76
 2703,Pro Evolution Soccer 2015,PS4,2014,Sports,Konami Digital Entertainment,0.09,0.43,0.11,0.13,0.76
 2704,Drawn to Life: The Next Chapter,Wii,2009,Puzzle,THQ,0.29,0.39,0,0.08,0.76

@@ -314,7 +314,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 323,Batman: Arkham Knight,PS4,2015.0,Action,AAA,1.49,1.58,0.1,0.61,3.79
 324,Mario & Sonic at the London 2012 Olympic Games,Wii,2011.0,Sports,AAA,1.14,1.91,0.27,0.46,3.78
 325,LEGO Indiana Jones: The Original Adventures,X360,2008.0,Action,AAA,2.4,1.03,0.0,0.36,3.78
-326,Resident Evil Director's Cut,PS,1996.0,Action,Indie,1.82,1.24,0.47,0.25,3.77
+326,Resident Evil Director's Cut,PS,1996.0,Action,AAA,1.82,1.24,0.47,0.25,3.77
 327,Ratchet & Clank: Size Matters,PSP,2007.0,Platform,AAA,1.4,1.4,0.1,0.87,3.77
 328,Just Dance 2014,Wii,2013.0,Misc,AAA,1.98,1.47,0.0,0.32,3.76
 329,The Sims: Unleashed,PC,2002.0,Simulation,AAA,2.03,1.56,0.0,0.17,3.76
@@ -769,7 +769,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 788,Scooby-Doo! Night of 100 Frights,PS2,2002.0,Platform,AA,1.17,0.72,0.0,0.22,2.1
 789,Project Gotham Racing (JP weekly sales),XB,2002.0,Action,AAA,1.54,0.44,0.04,0.07,2.1
 790,Need for Speed: Most Wanted 5-1-0,PSP,2005.0,Racing,AAA,1.77,0.13,0.02,0.18,2.1
-791,Portal 2,X360,2011.0,Shooter,Indie,1.41,0.51,0.01,0.17,2.1
+791,Portal 2,X360,2011.0,Puzzle,AAA,1.41,0.51,0.01,0.17,2.1
 792,Devil May Cry 3: Dante's Awakening,PS2,2005.0,Action,AAA,0.99,0.63,0.29,0.19,2.09
 793,Derby Stallion,PS,1997.0,Sports,Indie,0.0,0.0,1.96,0.14,2.09
 794,Dead Rising,X360,2006.0,Action,AAA,1.16,0.65,0.08,0.2,2.09
@@ -996,7 +996,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 1015,2 Games in 1: Disney Princess & The Lion King,GBA,2004.0,Misc,AA,1.25,0.46,0.0,0.03,1.75
 1016,Star Wars Episode I: The Phantom Menace,PS,1999.0,Adventure,AA,0.72,0.89,0.04,0.1,1.74
 1017,Xenosaga Episode I: Der Wille zur Macht,PS2,2002.0,Role-Playing,AAA,0.63,0.49,0.45,0.17,1.74
-1018,Portal 2,PS3,2011.0,Shooter,Indie,0.83,0.63,0.02,0.25,1.74
+1018,Portal 2,PS3,2011.0,Puzzle,AAA,0.83,0.63,0.02,0.25,1.74
 1019,The Beatles: Rock Band,Wii,2009.0,Misc,Indie,1.19,0.4,0.0,0.16,1.74
 1020,Forza Motorsport 6,XOne,2015.0,Racing,AAA,0.69,0.89,0.03,0.14,1.74
 1021,Sonic Colors,Wii,2010.0,Platform,AAA,0.96,0.61,0.01,0.16,1.74
@@ -2651,7 +2651,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 2698,ISS Pro Evolution,PS,1998.0,Sports,AAA,0.0,0.0,0.71,0.05,0.76
 2699,Lost Planet 2,X360,2010.0,Shooter,AAA,0.38,0.24,0.08,0.06,0.76
 2700,SoulCalibur V,PS3,2012.0,Fighting,AAA,0.35,0.24,0.07,0.1,0.76
-2701,Portal 2,PC,2011.0,Shooter,Indie,0.33,0.32,0.0,0.11,0.76
+2701,Portal 2,PC,2011.0,Puzzle,AAA,0.33,0.32,0.0,0.11,0.76
 2702,Super Monkey Ball: Touch & Roll,DS,2005.0,Misc,AAA,0.7,0.01,0.0,0.06,0.76
 2703,Pro Evolution Soccer 2015,PS4,2014.0,Sports,AAA,0.09,0.43,0.11,0.13,0.76
 2704,Drawn to Life: The Next Chapter,Wii,2009.0,Puzzle,AA,0.29,0.39,0.0,0.08,0.76
@@ -5070,7 +5070,7 @@ Rank,Name,Platform,Year,Genre,Publisher,NA_Sales,EU_Sales,JP_Sales,Other_Sales,G
 5157,Skylanders SWAP Force,PS4,2013.0,Platform,AAA,0.2,0.12,0.0,0.05,0.37
 5158,LEGO Batman 2: DC Super Heroes,PSV,2012.0,Action,AAA,0.17,0.13,0.0,0.06,0.37
 5159,Rock Band 4,PS4,2015.0,Misc,Indie,0.25,0.05,0.0,0.07,0.37
-5160,Left 4 Dead 2,PC,2009.0,Shooter,Indie,0.0,0.32,0.0,0.04,0.37
+5160,Left 4 Dead 2,PC,2009.0,Shooter,AAA,0.0,0.32,0.0,0.04,0.37
 5161,The Sims 2: Castaway,PS2,2007.0,Simulation,AAA,0.3,0.01,0.0,0.05,0.37
 5162,NCAA Football 07,PSP,2006.0,Sports,AAA,0.34,0.0,0.0,0.03,0.37
 5163,The Chronicles of Narnia: Prince Caspian,Wii,2008.0,Action,AA,0.31,0.02,0.0,0.03,0.36

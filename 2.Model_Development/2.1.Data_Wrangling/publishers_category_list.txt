@@ -1,6 +1,6 @@
 data taken from here -> https://gamalytic.com/publisher-list 
 list of every AAA and AA game featured in my dataset. The rest are categorised as indie. 
-(some of the AAA games are not listed, as I had already categorised them beforehand)
+(Data may not be FULLY accurate, however this was as accurate as I could get it without searching through all 16000 games to see which ones had indie publishers)
 
 AAA
 Nintendo
@@ -25,6 +25,7 @@ Bohemia Interactive
 Deep Silver
 Team17
 Activision Blizzard
+Valve Software
 
 AA
 Square Enix

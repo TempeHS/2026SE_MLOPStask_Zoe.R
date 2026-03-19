@@ -1,0 +1,55 @@
+{% extends 'layout.html' %} {% block content %}
+<div class="container">
+  <div class="row">
+    <h1>Add data to training database</h1>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <form action="/form_devlog.html" method="POST" class="box">
+      <div class="col-auto">
+        <label name="exampleFormControlInput1" class="form-label"
+          >Publisher
+        </label>
+        <input
+          name="developer"
+          type="developer"
+          class="form-control"
+          id="exampleFormControlInput1"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
+          placeholder="AAA/AA/Indie"
+        />
+      </div>
+      <div class="col-auto">
+        <label name="exampleFormControlInput1" class="form-label">Genre</label>
+        <input
+          name="project"
+          type="project"
+          class="form-control"
+          id="exampleFormControlInput1"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
+          placeholder="1-12"
+        />
+      </div>
+      <div class="col-auto">
+        <label name="exampleFormControlInput1" class="form-label"
+          >Platform</label
+        >
+        <input
+          name="worktime"
+          type="number"
+          class="form-control"
+          id="typeNumber"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
+          placeholder="1-32"
+        />
+      </div>
+      <br />
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+      </div>
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    </form>
+  </div>
+</div>
+{% endblock %}

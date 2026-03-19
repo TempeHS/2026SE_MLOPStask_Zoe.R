@@ -1,0 +1,7 @@
+THIS IS NOT PART OF THE SECURE WEBSITE
+The purpose of this document is simply so others can test out features which differ depending on users (such as devlogs being labelled by who is signed in), should they be added
+
+JohnSoftwareEngineering, password
+testuser, testpwd
+Secure_User, *Secure_Password_1225*
+LittleBobbyTables, xkcd327

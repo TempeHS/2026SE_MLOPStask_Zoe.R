@@ -1,0 +1,43 @@
+{% extends 'layout.html' %} {% block content %}
+<div class="container">
+  <div class="row">
+    <h1>Sign up</h1>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <form action="/form_signup.html" method="POST" class="box">
+      <div class="col-auto">
+        <label name="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          name="user"
+          type="user"
+          class="form-control"
+          id="exampleFormControlInput1"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
+          placeholder="name@example.com"
+        />
+      </div>
+      <div class="col-auto">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Example text area</label
+        >
+        <textarea
+          class="form-control"
+          name="password"
+          type="password"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+      </div>
+      <br />
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+      </div>
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    </form>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,82 @@
+<!-- SEARCH FUNCTION 
+currently unadded, as I am unsure of how to connect the python/SQL and HTML aspects
+and I do not believe I have the time to do that on top of the security report
+- drop down button containing each option able to be searched through (user, dev, project, etc)
+- whichever option the user selects on the button is the area of the SQL table that is searched through
+(this would likely be accomplished with placeholders/variables, I'm just not sure how to get the dropdown
+button to work)
+- searches through SQL table for entries containing those keywords
+- updates developer logs on right to only these entries
+-->
+
+{% extends 'layout.html' %} {% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-9"><h1 class="display-1">Developer logs</h1><body>Current code searches developer names, returns values in python terminal. Logic for the intended rest of the code can be found in the devlogs.html file</body></div>
+      <div class="col-4"><h2>Search</h2>
+      <br />
+      <form action="/devlogs.html" method="POST" class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          name="devlog_search"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <div class="btn-group">
+  
+  <!--<form action="/devlogs.html" method="POST"><label for="search"></label>
+  <select name="search_option">
+    <option value="username">Username</option>
+    <option value="developer">Developer</option>
+    <option value="project">Project</option>
+    <option value="repo">Repository</option>
+    <option value="notes">Notes</option>
+  </select>
+  </form>-->
+</div>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    </form>
+      </form>
+    </div>
+    <div class="col-8">
+      <h2>Devlogs</h2>
+    {% if devlogs %}
+    <div class="table-responsive">
+    <table>
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Developer</th>
+            <th>Project</th>
+            <th>Start time</th>
+            <th>End time</th>
+            <th>Log updated</th>
+            <th>Time spent</th>
+            <th>Repository</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+      {% for entry in devlogs %}
+        <tr>
+            <td>{{ log[0] }}</td>
+            <td>{{ log[1] }}</td>
+            <td>{{ log[2] }}</td>
+            <td>{{ log[3] }}</td>
+            <td>{{ log[4] }}</td>
+            <td>{{ log[5] }}</td>
+            <td>{{ log[6] }}</td>
+            <td>{{ log[7] }}</td>
+            <td>{{ log[8] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

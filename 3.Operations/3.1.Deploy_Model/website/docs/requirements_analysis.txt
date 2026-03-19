@@ -1,0 +1,21 @@
+#TASK 
+#Your team's Senior Software Engineer has tasked you with developing a simple in-house progressive web app that all software engineers in the team can use to maintain their developer logs/diaries. The Senior Software Engineer has given you the following requirements/specifications: 
+#1. Security evident in all phases of the software development lifecycle 
+#2. Ability for new team members to self-sign up 
+#3. Two Factor Authentication (2FA) and session management 
+#4. Data stored in a SQL Database (optional API interface) tables should be abstracted and joins used to relate queries. 
+#5. Developer log entries are time/date stamped 
+#6. Application meets minimum WC3 PWA standards, providing installation and online/offline functionality 
+#7. Allow developers to search/filter entries by developer, date, project or log/diary contents 
+#8. The app is modelled using: Level 0 data flow diagram, Structure chart & Data dictionary
+
+USER REQUIREMENTS 
+    ability to sign in and sign up
+    ability to add developer logs
+    ability to search through existing developer logs by name, date, project, etc
+
+SECURITY REQUIREMENTS
+    two factor authentication 
+    SQL database not vulnerable to SQL injection
+    hashing algorithm which protects passwords
+    able to protect against security vulnerabilities such as cross-site request forgery and cross-site scripting

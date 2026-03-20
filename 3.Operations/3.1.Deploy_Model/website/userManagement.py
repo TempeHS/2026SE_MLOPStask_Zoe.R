@@ -1,5 +1,6 @@
 import sqlite3 as sql
 import bcrypt
+import csv
 
 
 # this was an example i'm just leaving it in here in case i need to use it
@@ -111,7 +112,21 @@ def devlogsearch(searchdata):
         return logs
     except sql.IntegrityError:
         return False
+    
 
+def csvadd(publisher, genre, platform):
+    if publisher == 'AAA':
+        with open('AAA_training_data.csv', 'a', newline='') as csv_file:
+            writer = csv.writer(csv_file)
+            writer.writerow(['N/A', 'N/A', platform, 'N/A', genre, 1, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', ])
+    elif publisher == 'AA':
+        with open('AA_training_data.csv', 'a', newline='') as csv_file:
+            writer = csv.writer(csv_file)
+            writer.writerow(['N/A', 'N/A', platform, 'N/A', genre, 2, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', ])
+    elif publisher == 'Indie':
+        with open('indie_training_data.csv', 'a', newline='') as csv_file:
+            writer = csv.writer(csv_file)
+            writer.writerow(['N/A', 'N/A', platform, 'N/A', genre, 3, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', ])
 
 # TEST CODE FOR THE INPUT SYSTEM - NO HASHING NO INPUT VALIDATION WE DIE LIKE
 # usertest = input("no ")

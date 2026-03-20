@@ -7,7 +7,6 @@ from flask import session
 from flask import url_for
 import userManagement as dbHandler
 import pandas as pd
-import csv
 import pickle
 import numpy as np
 
@@ -147,18 +146,9 @@ def cosup():
             if not session.get("login") or not session.get("user"):
                 print("Unable to add to database. Try logging in!")
                 return render_template("/form_login.html")
-            if publisher == 'AAA':
-                with open('AAA_training_data.csv', 'w', newline='') as csv_file:
-                    writer = csv.writer(csv_file)
-                    writer.writerow(['N/A', 'N/A', platform, 'N/A', genre, 1, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', ])
-            elif publisher == 'AA':
-                with open('AA_training_data.csv', 'w', newline='') as csv_file:
-                    writer = csv.writer(csv_file)
-                    writer.writerow(['N/A', 'N/A', platform, 'N/A', genre, 2, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', ])
-            elif publisher == 'Indie':
-                with open('indie_training_data.csv', 'w', newline='') as csv_file:
-                    writer = csv.writer(csv_file)
-                    writer.writerow(['N/A', 'N/A', platform, 'N/A', genre, 3, 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', ])
+            if dbHandler.csvadd(publisher, genre, platform):
+                return render_template(
+                    "/form_devlog.html",)
             else:
                 print(
                     "Unable to add to database. Either you haven't submitted everything or this was an error on our end."
